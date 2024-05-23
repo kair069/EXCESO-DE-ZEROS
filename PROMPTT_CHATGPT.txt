@@ -1,0 +1,90 @@
+TENGO UNA DATA
+------------------------------
+bioChemists {pscl}	R Documentation
+article production by graduate students in biochemistry Ph.D. programs
+Description
+A sample of 915 biochemistry graduate students.
+
+Usage
+data(bioChemists)
+Format
+art
+count of articles produced during last 3 years of Ph.D.
+
+fem
+factor indicating gender of student, with levels Men and Women
+
+mar
+factor indicating marital status of student, with levels Single and Married
+
+kid5
+number of children aged 5 or younger
+
+phd
+prestige of Ph.D. department
+
+ment
+count of articles produced by Ph.D. mentor during last 3 years
+
+References
+Long, J. Scott. 1990. The origins of sex differences in science. Social Forces. 68(3):1297-1316.
+
+Long, J. Scott. 1997. Regression Models for Categorical and Limited Dependent Variables. Thousand Oaks, California: Sage.
+-----------------------------
+
+se podria realizar un exceso de zeros de lo anterior
+
+-----------------------------------------------
+quisiera realizarlos en base solo a una variable y una varible x,y comparar despues todos los modelos de exceso de zeros
+----------------------------------------------------------
+por que escogiste esas dos variables?
+------------------------------
+
+compara todos los modelos en base a fem y ment
+---------------------------
+dame todo lo anterior en uno 
+------------------------
+ahora compara por R cuadrado y por otro metodo que veas conveniente
+---------------------------------
+que variables de estas seria mejor para un modelo de exceo de  seros para una variable dependiente y Y una X:art
+count of articles produced during last 3 years of Ph.D.
+
+fem
+factor indicating gender of student, with levels Men and Women
+
+mar
+factor indicating marital status of student, with levels Single and Married
+
+kid5
+number of children aged 5 or younger
+
+phd
+prestige of Ph.D. department
+
+ment
+count of articles produced by Ph.D. mentor during last 3 years
+
+------------------
+OSEA SEGUN ESTUDIOS SOLO QUIERO 2 VARIABLES NO HAGA CODIGO
+
+-----------------------
+CUAL SERIA LA VARIABLE DEPENDIENTE
+
+-----------------------------------
+DALE UN DISENO BONITO A ESTAS 4 TABLAS ,QUE ESTEN JUNTAS Y QUE SE VEA BIEN:r2_zip_fem <- model_performance(zip_model_fem)
+r2_zinb_fem <- model_performance(zinb_model_fem)
+r2_zip_ment <- model_performance(zip_model_ment)
+r2_zinb_ment <- model_performance(zinb_model_ment)
+
+# Mostrar los resultados
+r2_zip_fem
+r2_zinb_fem
+r2_zip_ment
+r2_zinb_ment
+
+
+---------------------------------
+
+PERO QUE SE VEA EN UNA IMAGEN UTILIZA PLOTY
+-------------------------------
+ME REFERIA ALA TABLA EN PLOTY NO UN GRAFICO ESTADISTICO
